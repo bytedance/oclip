@@ -78,6 +78,14 @@ python3 tools/visualize_attn.py --model_path pretrained/RN50_synthtext.pt --char
 |-------------|--------------------|-----------|-----------|------------|------------|
 |![Input Image](demo/sample.jpg)|![Image Attenion Map](demo/im_attn_demo.jpg)|![Char Attention Map 0](demo/char_attn_demo_0.jpg)|![Char Attention Map 1](demo/char_attn_demo_1.jpg)|![Char Attention Map 2](demo/char_attn_demo_2.jpg)|![Char Attention Map 3](demo/char_attn_demo_3.jpg)|
 
+
+# Fine-tune in MMOCR
+We provide a script for converting model parameter names, thus it could be used in [MMOCR](https://github.com/open-mmlab/mmocr)
+```Bash
+# first modify the model_path and save_path in tools/convert2mmocr.py
+python tools/convert2mmocr.py
+```
+
 # Citation
 ```Text
 @article{xue2022language,
