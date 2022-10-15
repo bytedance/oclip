@@ -14,15 +14,15 @@ Part of the code is inherited from [open_clip](https://github.com/mlfoundations/
 
 | Backbone | Pre-train Data | Pre-train Model | Fine-tune Data | Fine-tune Model ([PSENet](https://github.com/whai362/PSENet)) | Precision | Recall | F-score |
 |----------|----------------|-----------------|----------------|----------------|-----------|-----------|-----------|
-| ResNet-50 | [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Pre-trained%20Models/RN50_synthtext.pt?csf=1&web=1&e=uVnGWs) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Fine-tune%20Models/PSENet_RN50_synthtext.pth.tar?csf=1&web=1&e=z0U0mw) | 89.9 | 81.6 | 85.5 |
-| ResNet-101 | [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Pre-trained%20Models/RN101_synthtext.pt?csf=1&web=1&e=r6iQGQ) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Fine-tune%20Models/PSENet_RN101_synthtext.pth.tar?csf=1&web=1&e=Yuwh5g) | 89.9 | 82.2 | 85.9 |
-| ResNet-50 | Web Image | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Pre-trained%20Models/RN50_web.pt?csf=1&web=1&e=kBEzgb) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Fine-tune%20Models/PSENet_RN50_web.pth.tar?csf=1&web=1&e=FCuLfz) | 90.1 | 83.5 | 86.7 |
+| ResNet-50 | [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONgVq_Q-h28M5NSTg?e=Elvcsj) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONkmHtayDoqTHLgkg?e=zu64Iv) | 89.9 | 81.6 | 85.5 |
+| ResNet-101 | [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONibwNePlvoa49oUg?e=2jjbEa) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONm7Jdoi58GXb67gg?e=X0K39L) | 89.9 | 82.2 | 85.9 |
+| ResNet-50 | Web Image | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONhJgZBfPf0ymJ3YA?e=6SZR4w) | [Total-Text](https://github.com/cs-chan/Total-Text-Dataset) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONlCkGsx0zLJkSrbw?e=ng4hSt) | 90.1 | 83.5 | 86.7 |
 
 * Chinese
 
 | Backbone | Pre-train Data | Pre-train Model |
 |----------|----------------|----------------|
-| ResNet-50 | [LSVT-Weak Annotation](https://rrc.cvc.uab.es/?ch=16&com=introduction) | [Link](https://entuedu-my.sharepoint.com/:u:/r/personal/xuec0003_e_ntu_edu_sg/Documents/opensource/oCLIP/Pre-trained%20Models/RN101_synthtext.pt?csf=1&web=1&e=6v6LrK) |
+| ResNet-50 | [LSVT-Weak Annotation](https://rrc.cvc.uab.es/?ch=16&com=introduction) | [Link](https://1drv.ms/u/s!Al-Eh1QsezDHhONjIta2HhLeSNPhgw?e=ziQaBe) |
 
 # Training oCLIP
 
