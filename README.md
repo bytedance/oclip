@@ -32,7 +32,7 @@ conda create -n oclip python=3.7
 conda activate oclip
 pip install -r requirement.txt
 
-git clone xxxxx
+git clone https://github.com/bytedance/oclip.git
 cd oclip
 export PYTHONPATH="$PYTHONPATH:$PWD/src"
 ```
