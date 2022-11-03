@@ -89,7 +89,7 @@ python tools/convert2mmocr.py
 # Citation
 ```Text
 @article{xue2022language,
-  title={Language Matters: A Weakly Supervised Pre-training Approach for Scene Text Detection and Spotting},
+  title={Language Matters: A Weakly Supervised Vision-Language Pre-training Approach for Scene Text Detection and Spotting},
   author={Xue, Chuhui and Zhang, Wenqing and Hao, Yu and Lu, Shijian and Torr, Philip and Bai, Song},
   journal={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2022}
