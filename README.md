@@ -80,7 +80,7 @@ python3 tools/visualize_attn.py --model_path pretrained/RN50_synthtext.pt --char
 
 
 # Fine-tune in MMOCR
-We provide a script for converting model parameter names, thus it could be used in [MMOCR](https://github.com/open-mmlab/mmocr)
+We provide a script for converting model parameter names, thus it could be used in the dev-1.x branch of [MMOCR](https://github.com/open-mmlab/mmocr/tree/dev-1.x)
 ```Bash
 # first modify the model_path and save_path in tools/convert2mmocr.py
 python tools/convert2mmocr.py
